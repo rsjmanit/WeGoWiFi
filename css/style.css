@@ -1,0 +1,348 @@
+
+/* CSS Reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+
+#home1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 110px;
+    height: 700px;
+}
+
+#home1::before {
+    content: "";
+    position: absolute;
+    background: url('../IMG/bg1.jpg') no-repeat center center/cover;
+    height: 642px;
+    left: 70px;
+    right: 10px;
+    top: 147px;
+    width: 90%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home1 div{
+    margin-left: 0px;
+    padding-top: 20px;
+}
+#home1 h1 {
+    color: white;
+    text-align:left;
+    font-size: 3.8rem;
+    
+}
+
+#home1 p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#home2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 110px;
+}
+#home2::before {
+    content: "";
+    position: absolute;
+    background: url('../IMG/bg2.jpg') no-repeat center center/cover;
+    height: 105px;
+    left: 70px;
+    right: 10px;
+    width: 90%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+#home2 h3 {
+    color: rgb(87, 174, 245);
+    font-size: 23px;
+}
+#home2 p {
+    color: white;
+    padding-top: 15px;
+}
+#home2 div{
+    margin-top: 25px;
+}
+
+
+/* utility classes */
+
+.btn1{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    margin: 17px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+.btn1:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+} 
+
+.submitbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 17px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+/* Description and details section */
+
+#star{
+    display: flex;
+    background-color: rgb(236, 233, 233);
+    height: 320px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconpara{
+    width: 160px;
+    font-size: 15px;
+}
+#star p{
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.stardiv{
+    display: flex;
+    justify-content: center;
+    height:160px;
+}
+.stardiv div{
+    margin: 10px 10px;
+}
+
+.star1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+
+.star1 h1{
+    padding: 0px 80px;
+    font-size: 3.3rem;
+}
+.star2, .star3{
+    width: 600px;
+    padding-top:30px;
+}
+
+      /* Frequently asked question's section */
+
+#img1{
+    height:1100px;
+    background-color: white;
+}
+#img1 p{
+    color: grey;
+}
+#img1 h1{
+    font-size: 2.3rem;
+}
+.img1d{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 50px 0;
+}
+
+.img1d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.img21d1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img31d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.img31d1 h1, .img31d1 p{
+    padding-left: 100px;
+}
+
+       /* bottom's up blue */
+
+#bl{
+    padding-top: 40px;
+    background-color: rgb(58, 203, 252);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+
+}
+#bl h1{
+    padding: 0px 80px;
+    font-size: 3.3rem;
+}
+.blbtn {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    margin: 17px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+
+
+/* BOTTOM THINGS (FOOTER-SECTION) */
+
+#bott{
+    padding-top: 25px;
+    background-color: white;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+}
+
+#bott p{
+    padding-top: 20px;
+    margin: 0px 112px 0px 168px;
+    color: grey;
+}
+#bott h1{
+    padding-top: 20px;
+    margin-left: 168px;
+}
+.bott1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bott1 ul{
+    display: flex;
+    margin-left: 168px;
+}
+.bott1 ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.bott1 ul li a {
+    color: black;
+    display: block;
+    margin: 3px 50px 3px 0;
+    padding:5px 5px 5px 0;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.bott1 ul li a:hover {
+    color: white;
+    background-color: black;
+} 
+
+.bottbtn{
+    color: black;
+    border-style: none;
+    background-color: white;
+    margin-right: 110px;
+    padding:5px 5px 5px 0;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.bottbtn:hover{
+    color: white;
+    background-color: black;
+} 

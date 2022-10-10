@@ -1,0 +1,161 @@
+ /* Navbar */
+
+ #navbar {
+     width: 138.4%;
+ }
+
+ #navbar::before {
+     height: 316%;
+     width: 138.4%;
+ }
+
+ #logo {
+     margin: 10px 0px;
+ }
+
+ .btn1 {
+     margin: 0 35px 0 0;
+     padding: 5px;
+ }
+
+ /* Home-1 */
+
+ #home1 {
+     padding: 8px 67px;
+     height: 682px;
+ }
+
+ #home1::before {
+     height: 645px;
+     left: 70px;
+     top: 147px;
+     width: 108%;
+ }
+
+ #home1 h1 {
+     font-size: 2.8rem;
+ }
+
+ #home1 p {
+     font-size: 1.8rem;
+     margin-top: 12px;
+ }
+
+ /* Home-2 */
+
+ #home2 {
+     padding: 0px 110px;
+     width: 100%;
+ }
+
+ #home2::before {
+     height: 81px;
+     left: 70px;
+     width: 108%;
+ }
+
+ #home2 h3 {
+     font-size: 25px;
+ }
+
+ #home2 div {
+     margin-top: 7px;
+ }
+
+ #home2 p {
+     padding: 13px 0;
+     font-size: 17px;
+ }
+
+ .btn2 {
+     font-size: 1.3rem;
+     margin: 15px 0;
+     padding: 7px 2px;
+ }
+
+ /* Star */
+
+ #star {
+     width: 138.4%;
+ }
+
+ .star1 {
+     width: 300px;
+ }
+
+ .star1 h1 {
+     padding: 0px 50px;
+     font-size: 2rem;
+ }
+
+ .star2,
+ .star3 {
+     width: 500px;
+ }
+
+ .stardiv {
+     height: 143px;
+ }
+
+ /* img1 */
+
+ #img1 {
+     height: 1120px;
+     width: 138.4%;
+ }
+
+ .img1d1 {
+     width: 300px;
+ }
+
+ #img1 h1 {
+     font-size: 1.5rem;
+ }
+
+ #img1 p {
+     font-size: 18px;
+ }
+
+ .img31d1 h1,
+ .img31d1 p {
+     padding-left: 10px;
+ }
+
+ .img31d1 {
+     width: 327px;
+ }
+
+ /* BL */
+
+ #bl {
+     padding-top: 20px;
+     height: 100px;
+     width: 138.4%;
+ }
+
+ #bl h1 {
+     padding: 0px;
+     font-size: 2.3rem;
+ }
+
+ /* BOTT */
+
+ #bott {
+     width: 138.4%;
+ }
+
+ .bott1 ul {
+     margin-left: 69px;
+ }
+
+ .bottbtn {
+     margin-right: 83px;
+ }
+
+ #bott h1 {
+     margin-left: 69px;
+ }
+
+ #bott p {
+     margin: 0px 90px 26px 69px;
+ }
